@@ -9,3 +9,12 @@ document.getElementById("zmienkolor").addEventListener("click", function() {
         zmiana_koloru = 0;
     }
 });
+document.getElementById("SchowajSekcje").addEventListener("click", function() {
+    var sekcja = document.getElementById("projekty");
+
+    if (sekcja.style.display === "none") {
+        sekcja.style.display = "block";
+    } else {
+        sekcja.style.display = "none";
+    }
+});
